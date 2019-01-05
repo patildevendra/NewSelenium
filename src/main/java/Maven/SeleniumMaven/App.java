@@ -16,7 +16,7 @@ public class App
      driver = new ChromeDriver();
      driver.get("https://www.google.com");
      driver.manage().window().maximize();
-     Thread.sleep(5000);
+     Thread.sleep(10000);
      driver.close();
     }
 }
